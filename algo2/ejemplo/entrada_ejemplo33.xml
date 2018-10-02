@@ -1,0 +1,31 @@
+<primero path = "/biblioteca">
+	<iteracion path="/epoca">
+		<dato>
+			<primero path="/nombre">1800
+			</primero>
+		</dato>
+		<iteracion path="/libro">
+			<dato>
+				<primero path="/nombre">Gabriel Garcia Marquez
+				</primero>
+			</dato>
+			<dato>
+				<primero path="/titulo">Cien años de soledad
+				</primero>
+			</dato>
+			<opt path="/versiones" final="">
+				<iteracion path="/version" final="">
+					<dato>
+						<primero path="/lugar"/>Buenos Aires
+					</dato>
+				</iteracion>
+			</opt>
+		</iteracion>
+	</iteracion>
+	<iteracion path="/revistas/revista" final="">
+		<dato>
+			<primero path="/titulo">Noticias
+			</primero>
+		</dato>
+	</iteracion>
+</primero>
