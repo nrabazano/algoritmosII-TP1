@@ -1,0 +1,7 @@
+<primero path = "/biblioteca">Biblioteca Sarmiento
+<iteracion path="/revistas/revista" final="">
+<dato>
+<primero path="/titulo">Caras </primero>
+</dato>
+</iteracion>
+</primero>
